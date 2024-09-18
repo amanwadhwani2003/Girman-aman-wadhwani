@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Girman - Full Stack Developer Intern Assignment
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This repository contains the solution for the Full Stack Developer Intern assignment for Girman Technologies. The objective was to create a search-based web application using Next.js with a focus on front-end and back-end development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Assignment Specifications
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Home Screen
+- **Landing Page:** A minimalistic design similar to Google's search page with Girman Technologies branding.
+- **Navigation Bar:** 
+  - **Website:** Redirects to [girmantech.com](https://girmantech.com)
+  - **LinkedIn:** Redirects to Girman Technologies' [LinkedIn page](https://www.linkedin.com/company/girman-technologies)
+  - **Contact:** Opens the default email client with a prefilled email to `contact@girmantech.com`
+- **Search Box:** Allows users to input search terms.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Search Results Page
+- **Search Functionality:** Displays search results in a card-based UI upon pressing "Enter."
+- **Card Details:** Each card includes user information (First Name, Last Name, Address, Phone Number) with a placeholder image.
+- **Fetch Details Button:** Opens a dialog box with detailed user information as per the provided Figma design.
+- **Empty State UI:** Shows an appropriate message when no results are found.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### User Data
+- **API:** The user data is passed through an API in JSON format. An API endpoint is created to fetch user data based on the search input, handling invalid inputs and no results.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technical Specifications
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Framework:** Next.js (Page-based routing)
+- **Component Library:** Shadcn component library (including Dialog component)
+- **API Design:** REST API with best practices for error handling and security
+- **Hosting:** Codebase hosted on GitHub and deployed on Vercel.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository**
+2. **Open the code in your system IDE**
+3. **Run the command in your terminal(to install the node modules) : npm install**
+4. **Run the command to run this on your host : npm run dev**
