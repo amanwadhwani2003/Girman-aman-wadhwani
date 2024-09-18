@@ -4,6 +4,10 @@
 
 This repository contains the solution for the Full Stack Developer Intern assignment for Girman Technologies. The objective was to create a search-based web application using Next.js with a focus on front-end and back-end development.
 
+## Vercel Hosted Link
+- **Inspect :** https://vercel.com/aman-wadhwanis-projects/girman-aman-wadhwani/Gv3frzX75YBwW4z6HR7v1zsEQdYx
+- **Production :** https://girman-aman-wadhwani-6paloergw-aman-wadhwanis-projects.vercel.app 
+
 ## Assignment Specifications
 
 ### Home Screen
